@@ -19,14 +19,14 @@ const DarkMode = () => {
       return (
         <button
           onClick={() => setTheme('light')} className="flex">
-          <SunDim className="relative inline-flex w-10 h-10 cursor-pointer text-yellow-500" color='currentcolor' weight="duotone" />
+          <SunDim className="relative inline-flex w-14 h-14 cursor-pointer text-yellow-500" color='currentcolor' weight="duotone" />
         </button>
       )
     } else {
       return (
         <button
           onClick={() => setTheme('dark')} className="flex">
-          <Moon className="relative inline-flex w-10 h-10 cursor-pointer text-blue-500" color='currentcolor' weight="duotone" />
+          <Moon className="relative inline-flex w-14 h-14 cursor-pointer text-blue-500" color='currentcolor' weight="duotone" />
         </button>
       )
     }
