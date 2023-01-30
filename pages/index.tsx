@@ -35,8 +35,9 @@ export default function Home() {
             </div>
           </div>
 
-          <Link href={"https://github.com/burakereno/simpledarkmode"}>
-            <button className='px-3 py-1 border border-zinc-400 rounded mt-10 space-x-1'>
+          <Link href={"https://github.com/burakereno/simple-darkmode"}>
+            <button className='px-3 py-1 border border-zinc-400 dark:hover:bg-zinc-100 dark:hover:text-zinc-900 dark:hover:border-zinc-100 rounded mt-10 space-x-1
+            hover:bg-zinc-900 hover:text-zinc-100 hover:border-zinc-900'>
               <span>View repo on <span className=' font-bold'>Github</span> </span>
               <span>
                 <ArrowRight className="relative inline-flex w-4 h-4 self-center" color='currentcolor' weight="duotone" />
