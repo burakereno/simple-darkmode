@@ -17,8 +17,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className='bg-zinc-100 dark:bg-zinc-900 h-screen w-screen flex flex-col items-center justify-center content-center text-zinc-900 dark:text-zinc-100'>
-        <section className=' border-zinc-600 p-10 flex flex-col items-center justify-center content-center'>
+      <main className='bg-zinc-100 dark:bg-zinc-900 h-screen w-screen flex flex-col items-center justify-center content-center text-zinc-900 dark:text-zinc-100 px-8'>
+        <section className=' border-zinc-600 flex flex-col items-center justify-center content-center text-center'>
 
           <div className='text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-orange-300 via-purple-300 to-indigo-400'>
             Simple Darkmode
