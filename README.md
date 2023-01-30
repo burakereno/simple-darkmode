@@ -1,6 +1,8 @@
 ## Simple Darkmode ☀️
 A very simple darkmode example with Next.js and Tailwindcss.
 
+🔥Demo: https://simpledarkmode.vercel.app
+
 ## Step 1
 First, install Next Themes [https://www.npmjs.com/package/next-themes]
 
@@ -9,9 +11,9 @@ npm install next-themes
 # or
 yarn add next-themes
 ```
-Daha sonra `_app.tsx` (or`_app.js`) dosyanıza **"Next Theme"** kodunu ekleyin.
+Then add the **"Next Theme"** code to your `_app.tsx` (or `_app.js`) file.
 
-Örnek:
+Example:
 ```javascript
 import '@/styles/globals.css'
 import type { AppProps } from 'next/app'
@@ -27,15 +29,15 @@ export default function App({ Component, pageProps }: AppProps) {
 ```
 
 ## Step 2
-İkonların düzgün görünmesi için Phosphor icon setini ekleyin.
+Add the Phosphor icon set to make the icons look good.
 
 ```javascript
 npm install --save phosphor-react
 ```
-Detaylı bilgi için: [https://phosphoricons.com](https://phosphoricons.com "https://phosphoricons.com")
+More information: [https://phosphoricons.com](https://phosphoricons.com "https://phosphoricons.com")
 
 ## Step 3
-Sonra, `tailwind.config.js` dosyasına `darkMode: "class"` satırını ekleyin.
+Next, add the line `darkMode: "class"` to `tailwind.config.js`.
 
 ```bash
 /** @type {import('tailwindcss').Config} */
@@ -52,3 +54,5 @@ module.exports = {
   plugins: [],
 }
 ```
+## Step 4
+Copy the `Darkmode.tsx` file to your project and it will start working.
