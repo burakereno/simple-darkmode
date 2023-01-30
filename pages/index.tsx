@@ -28,7 +28,7 @@ export default function Home() {
           </div>
 
           <div className='flex flex-col items-center justify-center content-center mt-10'>
-            <DarkMode /> 
+            <DarkMode />
             <ArrowUp className="relative inline-flex w-4 h-4 self-center mt-3" color='currentcolor' weight="duotone" />
             <div className='text-xs'>
               You can try
@@ -36,15 +36,17 @@ export default function Home() {
           </div>
 
           <Link href={"https://github.com/burakereno/simple-darkmode"}>
-            <button className='px-3 py-1 border rounded mt-10 space-x-1
+            <button className='px-3 py-1 border rounded mt-10 space-x-2 flex items-center justify-center self-center content-center
             dark:border-zinc-100 dark:bg-zinc-100 dark:text-zinc-900
             border-zinc-900 bg-zinc-900 text-zinc-100
             hover:bg-zinc-100 hover:text-zinc-900 hover:border-zinc-900
             hover:dark:bg-zinc-900 hover:dark:text-zinc-100 hover:dark:border-zinc-100
             '>
-              <span>View repo on <span className=' font-bold'>Github</span> </span>
-              <span>
-                <ArrowRight className="relative inline-flex w-4 h-4 self-center" color='currentcolor' weight="duotone" />
+              <span className='items-center justify-center content-center flex'>View repo on
+                <span className=' font-bold'>Github</span>
+              </span>
+              <span className='items-center justify-center content-center flex'>
+                <ArrowRight className="relative inline-flex w-4 h-4 self-center my-auto justify-center" color='currentcolor' weight="bold" />
               </span>
             </button>
           </Link>
