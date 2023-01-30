@@ -46,7 +46,7 @@ export default function Home() {
                 <span className=' font-bold'>Github</span>
               </span>
               <span className='items-center justify-center content-center flex'>
-                <ArrowRight className="relative inline-flex w-4 h-4 self-center my-auto justify-center" color='currentcolor' weight="bold" />
+                <ArrowRight className="relative inline-flex w-3 h-3 self-center my-auto justify-center" color='currentcolor' weight="bold" />
               </span>
             </button>
           </Link>
