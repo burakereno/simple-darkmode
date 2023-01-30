@@ -5,7 +5,7 @@ import { InstagramLogo, TwitterLogo, FigmaLogo, DribbbleLogo } from "phosphor-re
 export default function Info() {
   return (
     <>
-      <section className='space-y-4 flex flex-col items-center justify-center content-center mt-6 text-zinc-900 dark:text-zinc-100 border border-zinc-400 py-6 px-8 rounded-lg'>
+      <section className='space-y-4 flex flex-col items-center justify-center content-center mt-6 text-zinc-900 dark:text-zinc-100  border-zinc-400 py-6 px-8 rounded-lg'>
 
         <div>
           <Link className='hover:opacity-50' href={"https://burakerenoglu.com"} target={"_blank"}>
