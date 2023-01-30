@@ -42,8 +42,8 @@ export default function Home() {
             hover:bg-zinc-100 hover:text-zinc-900 hover:border-zinc-900
             hover:dark:bg-zinc-900 hover:dark:text-zinc-100 hover:dark:border-zinc-100
             '>
-              <span className='items-center justify-center content-center flex'>View repo on
-                <span className=' font-bold'>Github</span>
+              <span className=''>View repo on
+                <span className='font-bold'> Github</span>
               </span>
               <span className='items-center justify-center content-center flex'>
                 <ArrowRight className="relative inline-flex w-3 h-3 self-center my-auto justify-center" color='currentcolor' weight="bold" />
