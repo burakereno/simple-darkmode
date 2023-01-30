@@ -27,7 +27,7 @@ export default function Home() {
             A very simple darkmode example with Next.js and Tailwindcss.
           </div>
 
-          <div className='flex flex-col items-center justify-center content-center mt-10'>
+          <div className='flex flex-col items-center justify-center content-center mt-10 mb-10'>
             <DarkMode />
             <ArrowUp className="relative inline-flex w-4 h-4 self-center mt-3" color='currentcolor' weight="duotone" />
             <div className='text-xs'>
@@ -36,7 +36,7 @@ export default function Home() {
           </div>
 
           <Link href={"https://github.com/burakereno/simple-darkmode"}>
-            <button className='px-3 py-1 border rounded mt-10 space-x-2 flex items-center justify-center self-center content-center
+            <button className='px-3 py-1 border rounded space-x-2 flex items-center justify-center self-center content-center
             dark:border-zinc-100 dark:bg-zinc-100 dark:text-zinc-900
             border-zinc-900 bg-zinc-900 text-zinc-100
             hover:bg-zinc-100 hover:text-zinc-900 hover:border-zinc-900
